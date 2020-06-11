@@ -1,9 +1,3 @@
-/*
-	Zenith by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
-*/
-
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700,700i");
 html, body, div, span, applet, object,
@@ -307,7 +301,7 @@ input, select, textarea {
 	}
 
 	a {
-		color: #46bdd3;
+		color: #F2B82D;
 	}
 
 	strong, b {
@@ -2016,7 +2010,7 @@ input, select, textarea {
 		.button.special {
 			background: #ffffff;
 			box-shadow: none;
-			color: #46bdd3 !important;
+			color: #F2B82D !important;
 		}
 
 			input[type="submit"].special:hover,
@@ -2032,7 +2026,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #46bdd3;
+			background-color: #F2B82D;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -2042,7 +2036,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: rgba(70, 189, 211, 0.875);
+				background-color: #F4C452;
 				box-shadow: none;
 			}
 
@@ -2240,8 +2234,8 @@ input, select, textarea {
 		input[type="url"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #46bdd3;
-			box-shadow: 0 0 0 1px #46bdd3;
+			border-color: #F2B82D;
+			box-shadow: 0 0 0 1px #F2B82D;
 		}
 
 	input[type="search"] {
@@ -2730,7 +2724,7 @@ input, select, textarea {
 	}
 
 		ul.contact-icons li.icon:before {
-			background: #46bdd3;
+			background: #F2B82D;
 			color: #474d55;
 		}
 
@@ -3072,6 +3066,7 @@ input, select, textarea {
 
 		.features p {
 			font-size: 1.25rem;
+
 		}
 
 		.features .triangle {
@@ -3186,7 +3181,10 @@ input, select, textarea {
 		.wrapper.style1 {
 			background-color: #ffffff;
 			color: #c1c5cb;
-			background: #46bdd3;
+			background: #F2B82D;
+			border-top: 50px solid #031043;
+			border-bottom: 50px solid #031043;
+			padding: 2.5rem 0 1rem 0;
 		}
 
 			.wrapper.style1 input, .wrapper.style1 select, .wrapper.style1 textarea {
@@ -3255,7 +3253,7 @@ input, select, textarea {
 				.wrapper.style1 .button.special {
 					background: #ffffff;
 					box-shadow: none;
-					color: #46bdd3 !important;
+					color: #F2B82D !important;
 				}
 
 					.wrapper.style1 input[type="submit"].special:hover,
@@ -3271,7 +3269,7 @@ input, select, textarea {
 				.wrapper.style1 input[type="button"].primary,
 				.wrapper.style1 button.primary,
 				.wrapper.style1 .button.primary {
-					background-color: #46bdd3;
+					background-color: #F2B82D;
 					box-shadow: none;
 					color: #ffffff !important;
 				}
@@ -3317,8 +3315,8 @@ input, select, textarea {
 				.wrapper.style1 input[type="url"]:focus,
 				.wrapper.style1 select:focus,
 				.wrapper.style1 textarea:focus {
-					border-color: #46bdd3;
-					box-shadow: 0 0 0 1px #46bdd3;
+					border-color: #F2B82D;
+					box-shadow: 0 0 0 1px #F2B82D;
 				}
 
 			.wrapper.style1 input[type="search"] {
@@ -3383,7 +3381,7 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 ul.contact-icons li.icon:before {
-					background: #46bdd3;
+					background: #F2B82D;
 					color: #ffffff;
 				}
 
@@ -3437,7 +3435,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 .features .icon {
-				color: #46bdd3;
+				color: #F2B82D;
 			}
 
 			.wrapper.style1 .image {
@@ -3522,7 +3520,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #2a3037;
+		background: #031043;
 		color: #c1c5cb;
 		cursor: default;
 		height: 3.75rem;
@@ -3536,7 +3534,7 @@ input, select, textarea {
 	}
 
 		#header .logo {
-			background: #46bdd3;
+			background: #F2B82D;
 			color: #ffffff;
 			display: block;
 			height: 3.75rem;
@@ -3638,7 +3636,7 @@ input, select, textarea {
 						}
 
 						#header nav > ul > li a.active {
-							border-bottom: 3px solid #46bdd3;
+							border-bottom: 3px solid #F2B82D;
 							font-weight: 700;
 						}
 
@@ -3672,7 +3670,7 @@ input, select, textarea {
 					}
 
 					.dropotron li.active > a {
-						background-color: #2a3037;
+						background-color: #031043;
 						color: #ffffff !important;
 					}
 
@@ -3688,7 +3686,7 @@ input, select, textarea {
 				}
 
 					.dropotron a:hover {
-						background-color: #2a3037;
+						background-color: #031043;
 						color: #ffffff !important;
 					}
 
@@ -3759,7 +3757,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		-webkit-overflow-scrolling: touch;
-		background: #2a3037;
+		background: #031043;
 		box-shadow: none;
 		display: none;
 		height: 100%;
@@ -3901,6 +3899,10 @@ input, select, textarea {
 		height: 45rem;
 		position: relative;
 	}
+	#banner article p {
+		max-width: 900px;
+		margin: auto;
+	}
 
 		#banner input, #banner select, #banner textarea {
 			color: #ffffff;
@@ -3937,7 +3939,7 @@ input, select, textarea {
 			-webkit-transition: opacity1.5s ease-in-out, visibility 1.5s;
 			-ms-transition: opacity1.5s ease-in-out, visibility 1.5s;
 			transition: opacity1.5s ease-in-out, visibility 1.5s;
-			background: #2a3037;
+			background: #031043;
 			content: '';
 			display: block;
 			height: 100%;
@@ -4011,7 +4013,7 @@ input, select, textarea {
 			}
 
 				#banner > article p:before {
-					background-color: #46bdd3;
+					background-color: #F2B82D;
 					content: '';
 					display: block;
 					height: 4px;
@@ -4136,7 +4138,7 @@ input, select, textarea {
 		background-color: #ffffff;
 		color: #c1c5cb;
 		padding: 7rem 0 4.25rem 0 ;
-		background: #2a3037;
+		background: #031043;
 	}
 
 		#footer input, #footer select, #footer textarea {
@@ -4205,7 +4207,7 @@ input, select, textarea {
 			#footer .button.special {
 				background: #ffffff;
 				box-shadow: none;
-				color: #46bdd3 !important;
+				color: #F2B82D !important;
 			}
 
 				#footer input[type="submit"].special:hover,
@@ -4221,7 +4223,7 @@ input, select, textarea {
 			#footer input[type="button"].primary,
 			#footer button.primary,
 			#footer .button.primary {
-				background-color: #46bdd3;
+				background-color: #F2B82D;
 				box-shadow: none;
 				color: #ffffff !important;
 			}
@@ -4267,8 +4269,8 @@ input, select, textarea {
 			#footer input[type="url"]:focus,
 			#footer select:focus,
 			#footer textarea:focus {
-				border-color: #46bdd3;
-				box-shadow: 0 0 0 1px #46bdd3;
+				border-color: #F2B82D;
+				box-shadow: 0 0 0 1px #F2B82D;
 			}
 
 		#footer input[type="search"] {
@@ -4333,7 +4335,7 @@ input, select, textarea {
 		}
 
 			#footer ul.contact-icons li.icon:before {
-				background: #46bdd3;
+				background: #F2B82D;
 				color: #ffffff;
 			}
 
@@ -4387,7 +4389,7 @@ input, select, textarea {
 		}
 
 		#footer .features .icon {
-			color: #46bdd3;
+			color: #F2B82D;
 		}
 
 		#footer a {
