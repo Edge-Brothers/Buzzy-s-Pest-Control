@@ -65,6 +65,13 @@ input, select, textarea {
 	appearance: none;
 }
 
+.logo3{
+	width: 70px;
+	margin-bottom: -18px;
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1) rotate(5deg);
+}
+
 /* Basic */
 
 	@-ms-viewport {
