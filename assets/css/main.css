@@ -3642,8 +3642,10 @@ input, select, textarea {
 						}
 
 						#header nav > ul > li a.active {
-							border-bottom: 3px solid #F2B82D;
+							border-bottom: 6px solid #F2B82D;
 							font-weight: 700;
+							border-radius: 10%;
+
 						}
 
 					#header nav > ul > li:last-child a {
